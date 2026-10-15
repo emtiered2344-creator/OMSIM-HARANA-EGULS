@@ -95,6 +95,19 @@ public class Human : MonoBehaviour
         }
     }
 
+    public void OpenMinigame(InputAction.CallbackContext context)
+    {
+        if (!MinigameManager.Instance.minigameOpened)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            MinigameManager.Instance.MinigamesPanel.SetActive(true);
+            GetComponent<PlayerInput>().enabled = false;
+            MinigameManager.Instance.minigameOpened = true;
+        }
+        
+    }
+
     public void MoveSet()
     {
         if (isDashing)
