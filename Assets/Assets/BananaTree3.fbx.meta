@@ -3,7 +3,12 @@ guid: 7eb79ba8fa0b7fe47a4c5e27b86918da
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BananaTree.002
+    second: {fileID: 2100000, guid: c08e960a9bee92347b8564b6007614f1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
