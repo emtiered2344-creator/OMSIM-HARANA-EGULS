@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "OMSIM-HARANA-EGULS.slnx"
+    "dotnet.defaultSolution": "MSIT Demo.slnx"
 }
