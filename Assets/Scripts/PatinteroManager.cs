@@ -53,8 +53,7 @@ public class PatinteroManager : MonoBehaviour
     public void closePatintero()
     {
         ResetPatintero();
-        Patintero.SetActive(false);
-        
+        MinigameManager.Instance.closePatintero();
     }
 
     public void ResetPatintero()
